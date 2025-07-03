@@ -1,22 +1,5 @@
-/*
- * Obtencion de archivos JS de manera paralela y carga sincronica
- */
-//loadjs(['https://kit.fontawesome.com/bf671ef02a.js', 'https://cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.min.js', '/js/ramos.js', '/js/canvas.js'], 'init');
-/*loadjs.ready('init', {
-    success: function() { console.log("Recursos cargados") },
-    error: function(depsNotFound) {
-        Swal.fire(
-            "Fallo al cargar",
-            "Tuvimos problemas al cargar algunas dependencias... el sitio se recargara en 5 segundos.",
-            "error"
-        );
-        setTimeout(function(){
-            location.reload();
-        }, 5000);
-    },
-});*/
 
-
+console.log("init.js se está ejecutando");
 
 let vh = window.innerHeight * 0.01;
 // Then we set the value in the --vh custom property to the root of the document

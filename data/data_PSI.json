@@ -1,0 +1,81 @@
+{
+  "s1": [
+    ["Introducción a la Psicología", "PSI101", 3, 0, "CB", [], ""],
+    ["Fundamentos Filosóficos de la Psicología", "PSI102", 3, 0, "CB", [], ""],
+    ["Evolución y Conducta", "PSI103", 3, 0, "CB", [], ""],
+    ["Psicología de la Percepción, Atención y Memoria", "PSI104", 3, 0, "CB", [], ""],
+    ["Competencias y Ámbitos Profesionales de la Psicología", "PSI105", 3, 0, "FG", [], ""],
+    ["Género y Diversidad", "PSI106", 3, 0, "CSO", [], ""],
+    ["Introducción a las Ciencias Sociales", "PSI107", 3, 0, "FG", [], ""]
+  ],
+  "s2": [
+    ["Metodología de la Investigación en Ciencias Sociales", "PSI201", 3, 0, "INV", [], ""],
+    ["Psicofisiología", "PSI202", 3, 0, "CB", [], ""],
+    ["Psicología del Pensamiento y Lenguaje", "PSI203", 3, 0, "PSI", [], ""],
+    ["Psicología del Aprendizaje, Motivación y Emoción", "PSI204", 3, 0, "PSI", [], ""],
+    ["Psicología del Desarrollo: Infancia y Adolescencia", "PSI205", 3, 0, "PSI", [], ""],
+    ["Ciencia Social Regional", "PSI206", 3, 0, "CSO", ["PSI107"], ""],
+    ["Inglés 1 / CFG", "PSI207", 3, 0, "IDM", [], ""]
+  ],
+  "s3": [
+    ["Diseño de la Investigación Cualitativa", "PSI301", 3, 0, "INV", ["PSI201"], ""],
+    ["Diseño de la Investigación Cuantitativa", "PSI302", 3, 0, "INV", ["PSI201"], ""],
+    ["Fundamentos de la Neuropsicología", "PSI303", 3, 0, "CB", ["PSI202"], ""],
+    ["Psicología de la Personalidad", "PSI304", 3, 0, "CB", ["PSI205"], ""],
+    ["Psicología Social 1", "PSI305", 3, 0, "CSO", [], ""],
+    ["Psicología del Desarrollo: Adultez y Vejez", "PSI306", 3, 0, "PSI", ["PSI205"], ""],
+    ["Inglés 2 / CFG", "PSI307", 3, 0, "IDM", ["PSI207"], ""]
+  ],
+  "s4": [
+    ["Análisis de Contenido y Teoría Fundamentada", "PSI401", 3, 0, "INV", ["PSI301"], ""],
+    ["Estadística 1", "PSI402", 3, 0, "INV", ["PSI302"], ""],
+    ["Introducción a la Evaluación Psicológica", "PSI403", 3, 0, "CLN", ["PSI304"], ""],
+    ["Psicopatología 1", "PSI404", 3, 0, "CLN", ["PSI304"], ""],
+    ["Psicología Social 2", "PSI405", 3, 0, "CSO", ["PSI305"], ""],
+    ["Psicología Comunitaria", "PSI406", 3, 0, "CSO", ["PSI305"], ""],
+    ["Inglés 3 / CFG", "PSI407", 3, 0, "IDM", ["PSI307"], ""]
+  ],
+  "s5": [
+    ["Análisis del Discurso", "PSI501", 3, 0, "INV", ["PSI401"], ""],
+    ["Estadística 2", "PSI502", 3, 0, "INV", ["PSI402"], ""],
+    ["Evaluación Psicológica Aplicada", "PSI503", 3, 0, "CLN", ["PSI403"], ""],
+    ["Psicopatología 2", "PSI504", 3, 0, "CLN", ["PSI404"], ""],
+    ["Psicología del Trabajo y las Organizaciones", "PSI505", 3, 0, "ORG", ["PSI405"], ""],
+    ["Configuración Disciplinar y Rol de la Psicología Educacional", "PSI506", 3, 0, "EDU", ["PSI204"], ""],
+    ["Inglés 4", "PSI507", 3, 0, "IDM", ["PSI407"], ""]
+  ],
+  "s6": [
+    ["Psicología Jurídica", "PSI601", 3, 0, "JUR", ["PSI405","PSI504"], ""],
+    ["Fundamentos de la Psicología Clínica", "PSI602", 3, 0, "CLN", ["PSI504"], ""],
+    ["Gestión de Personas en Organizaciones", "PSI603", 3, 0, "ORG", ["PSI505"], ""],
+    ["Políticas Educativas: Caracterización e Implicancias", "PSI604", 3, 0, "EDU", ["PSI506"], ""],
+    ["Intervención Comunitaria", "PSI605", 3, 0, "CSO", ["PSI406"], ""],
+    ["Inglés 5", "PSI607", 3, 0, "IDM", ["PSI507"], ""]
+  ],
+  "s7": [
+    ["Psicología Clínica Infanto-Juvenil", "PSI701", 3, 0, "CLN", ["PSI602"], ""],
+    ["Desarrollo y Cambio Organizacional", "PSI702", 3, 0, "ORG", ["PSI603"], ""],
+    ["Intervención en Psicología Educacional 1", "PSI703", 3, 0, "EDU", ["PSI604"], ""],
+    ["Electivo 1", "PSI704", 3, 0, "ELE", [], ""],
+    ["Proyecto de Tesis 1", "PSI705", 3, 0, "TES", ["PSI501","PSI502"], ""],
+    ["Inglés 6", "PSI706", 3, 0, "IDM", ["PSI607"], ""]
+  ],
+  "s8": [
+    ["Psicología Clínica de Adultos", "PSI801", 3, 0, "CLN", ["PSI701"], ""],
+    ["Salud y Bienestar Organizacional", "PSI802", 3, 0, "ORG", ["PSI702"], ""],
+    ["Intervención en Psicología Educacional 2", "PSI803", 3, 0, "EDU", ["PSI703"], ""],
+    ["Electivo", "PSI804", 3, 0, "ELE", [], ""],
+    ["Proyecto de Tesis 2", "PSI805", 3, 0, "TES", ["PSI705"], ""],
+    ["Taller de Inserción y Desarrollo Territorial", "PSI1004", 3, 0, "FG", [], ""]
+  ],
+  "s9": [
+    ["Electivo de Profesionalización 1", "PSI901", 3, 0, "ELE", [], ""],
+    ["Electivo de Profesionalización 2", "PSI902", 3, 0, "ELE", [], ""],
+    ["Práctica Profesional 1", "PSI903", 3, 0, "PRA", [], ""]
+  ],
+  "s10": [
+    ["Electivo de Profesionalización 3", "PSI1001", 3, 0, "ELE", [], ""],
+    ["Electivo de Profesionalización 4", "PSI1002", 3, 0, "ELE", [], ""],
+    ["Práctica Profesional 2", "PSI1003", 3, 0, "PRA", ["PSI903"], ""]
+  ]
+}

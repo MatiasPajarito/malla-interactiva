@@ -60,9 +60,8 @@
   <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
 
 <!--  Preload-->
-  <link rel="preload" href="js/min1.js" as="script">
-  <link rel="preload" href="./views/header.html" as="document">
-  <link rel="preload" href="./views/footer.html" as="document">
+  <link rel="preload" href="./views/header.html" as = "document">
+  <link rel="preload" href="./views/footer.html" as = "document">
 <!--  <link rel="preload" href="./data/carreras.json" as="fetch">-->
   <link rel="preconnect" href="https://kit.fontawesome.com/">
 
@@ -161,13 +160,20 @@
     <!-- scripts -->
 
   <script src="https://d3js.org/d3.v5.min.js"></script>
-  <script defer src='js/min1.js'></script>
+  <script src="js/ramo.js"></script>
+  <script defer src='js/malla.js'></script>
+  <script defer src='js/init.js'></script>
   <script src="https://kit.fontawesome.com/df883d94bd.js" crossorigin="anonymous"></script>
   <script type="text/template" data-template="tab-template1">
     <li><a class="nav-item nav-link" href="?m=${Link}"><span class="d-md-none">Malla </span>${Nombre}</a></li>
   </script>
   <script type="text/template" data-template="tab-template2">
     <a class="dropdown-item" href="?m=${Link}">Malla ${Nombre}</a>
+  </script>
+  <script>
+    function removePopUp() {
+    document.getElementById('overlay').style.display = 'none';
+    }
   </script>
 </body>
 </html>

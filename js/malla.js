@@ -64,7 +64,10 @@ class Malla {
             this.fullCareerName = data.name
             console.log("hola")
             console.log(data.name)
-            return Promise.resolve(this.setMallaAndCategories(data.malla, data.categories))
+            return Promise.all(promises).then(values => {
+                console.log("Malla cargada:", this.currentMalla, values[0], values[1]); // <-- Agrega esto
+                this.setMallaAndCategories(values[0], values[1])
+            })
 
         } else {
             this.currentMalla = carr;

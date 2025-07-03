@@ -1,0 +1,16 @@
+{
+  "CLN": ["#F48FB1", "Psicología Clínica"],
+  "EDU": ["#80CBC4", "Psicología Educacional"],
+  "ORG": ["#B39DDB", "Psicología Organizacional"],
+  "INV": ["#FFF59D", "Investigación y Metodología"],
+  "CB": ["#A5D6A7", "Psicología Básica / Fundamentos"],
+  "CSO": ["#90CAF9", "Psicología Social y Comunitaria"],
+  "FG": ["#CFD8DC", "Formación Transversal / General"],
+  "TES": ["#F06292", "Tesis / Proyecto"],
+  "ELE": ["#E0E0E0", "Electivos"],
+  "IDM": ["#9FA8DA", "Inglés"],
+  "OTR": ["#BDBDBD", "Otros"],
+  "PRA": ["#FFCC80", "Práctica Profesional"],
+  "JUR": ["#FFE082", "Psicología Jurídica"],
+  "PSI": ["#FFAB91", "Psicología General"]
+}
